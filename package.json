@@ -1,0 +1,26 @@
+{
+  "name": "50_lunchtalk_slackbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bnjmnsbl/lunchtalk_slackbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bnjmnsbl/lunchtalk_slackbot/issues"
+  },
+  "homepage": "https://github.com/bnjmnsbl/lunchtalk_slackbot#readme",
+  "dependencies": {
+    "@slack/bolt": "^2.0.1",
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "node-cron": "^2.0.3"
+  }
+}
