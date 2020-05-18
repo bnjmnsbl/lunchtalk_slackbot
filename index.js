@@ -7,7 +7,7 @@ const skypeUrl=process.env.SKYPE_URL;
 
 console.log('Slackbot is running!');
 
-cron.schedule('* 12 * * 1-5', () => {
+cron.schedule('0 12 * * 1-5', () => {
 
   axios({
     method: 'post',
